@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sm5152.github.io</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .directory-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .directory-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .directory-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .directory-item h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #0366d6;
+        }
+        
+        .file-list {
+            list-style: none;
+        }
+        
+        .file-list li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .file-list a {
+            color: #0366d6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .file-list a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        
+        .file-list .folder {
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            color: #666;
+            border-top: 1px solid #eaecef;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>sm5152.github.io</h1>
+        <p>我的技术文档和配置文件</p>
+    </header>
+    
+    <div class="container">
+        <div class="directory-list">
+            <!-- JetBrains目录 -->
+            <div class="directory-item">
+                <h2>📁 JetBrains</h2>
+                <ul class="file-list">
+                    <li><a href="JetBrains/" class="folder">JetBrains配置</a></li>
+                    <li><a href="JetBrains/IntelliJIdea2025.3/">IntelliJ IDEA配置</a></li>
+                    <li><a href="JetBrains/PhpStorm2024.2/">PhpStorm 2024.2配置</a></li>
+                    <li><a href="JetBrains/PhpStorm2025.3/">PhpStorm 2025.3配置</a></li>
+                    <li><a href="JetBrains/PyCharm2025.3/">PyCharm 2025.3配置</a></li>
+                </ul>
+            </div>
+            
+            <!-- Docker目录 -->
+            <div class="directory-item">
+                <h2>🐳 Docker</h2>
+                <ul class="file-list">
+                    <li><a href="docker/docker-ce.md">Docker CE安装文档</a></li>
+                </ul>
+            </div>
+            
+            <!-- ELK目录 -->
+            <div class="directory-item">
+                <h2>🔍 ELK Stack</h2>
+                <ul class="file-list">
+                    <li><a href="elk/elk.md">ELK主文档</a></li>
+                    <li><a href="elk/apt/">APT安装ELK</a></li>
+                    <li><a href="elk/dnf/">DNF安装ELK</a></li>
+                </ul>
+            </div>
+            
+            <!-- MySQL目录 -->
+            <div class="directory-item">
+                <h2>🗄️ MySQL</h2>
+                <ul class="file-list">
+                    <li><a href="mysql/hagobuy_import_data.sh">数据导入脚本</a></li>
+                    <li><a href="mysql/hagobuy_import_structure.sh">结构导入脚本</a></li>
+                </ul>
+            </div>
+            
+            <!-- Nginx目录 -->
+            <div class="directory-item">
+                <h2>🌐 Nginx</h2>
+                <ul class="file-list">
+                    <li><a href="nginx/macos-base.conf">macOS基础配置</a></li>
+                    <li><a href="nginx/unix-base.conf">Unix基础配置</a></li>
+                    <li><a href="nginx/unix-example.conf">Unix示例配置</a></li>
+                    <li><a href="nginx/windows-base.conf">Windows基础配置</a></li>
+                    <li><a href="nginx/windows-example.conf">Windows示例配置</a></li>
+                </ul>
+            </div>
+            
+            <!-- Settings目录 -->
+            <div class="directory-item">
+                <h2>⚙️ 设置文档</h2>
+                <ul class="file-list">
+                    <li><a href="settings/BROWER.md">浏览器配置</a></li>
+                    <li><a href="settings/IDEA.md">IDEA配置</a></li>
+                    <li><a href="settings/LINUX.md">Linux配置</a></li>
+                    <li><a href="settings/MACOS.md">macOS配置</a></li>
+                    <li><a href="settings/WIN.md">Windows配置</a></li>
+                    <li><a href="settings/WINS.md">Windows服务器配置</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 sm5152.github.io</p>
+    </footer>
+</body>
+</html>
