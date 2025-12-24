@@ -1,0 +1,10 @@
+<application>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "got.it.tooltip.trial.state.widget.trial.started.got.it.id": "1",
+    "ift.hide.welcome.screen.promo": "true",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+</application>

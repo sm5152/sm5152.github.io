@@ -1,0 +1,20 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="ProjectViewState">
+        <option name="autoscrollFromSource" value="true" />
+      </component>
+      <component name="VcsManagerConfiguration">
+        <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+        <option name="CHECK_NEW_TODO" value="false" />
+        <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+        <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
+      </component>
+      <component name="ChangesViewManager">
+        <option name="groupingKeys">
+          <option value="directory" />
+        </option>
+      </component>
+    </defaultProject>
+  </component>
+</application>

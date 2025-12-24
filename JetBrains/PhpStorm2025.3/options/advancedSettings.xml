@@ -1,0 +1,11 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="ide.ui.native.file.chooser" value="true" />
+        <entry key="show.diff.as.editor.tab" value="false" />
+        <entry key="welcome.screen.non.modal.enabled" value="false" />
+      </map>
+    </option>
+  </component>
+</application>

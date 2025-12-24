@@ -1,0 +1,127 @@
+<application>
+  <component name="ToolWindowLayout"><![CDATA[{
+  "activeLayoutName": "hm",
+  "layouts": {
+    "hm": {
+      "v2": [
+        {
+          "id": "Project",
+          "order": 0,
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.2,
+          "sideWeight": 0.618
+        },
+        {
+          "id": "Commit",
+          "order": 1,
+          "type": "SLIDING",
+          "internalType": "SLIDING"
+        },
+        {
+          "id": "Structure",
+          "order": 2,
+          "isActiveOnStart": true,
+          "isVisible": true,
+          "weight": 0.2,
+          "sideWeight": 0.382,
+          "isSplit": true
+        },
+        {
+          "id": "Version Control",
+          "order": 0,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "isMaximized": true,
+          "type": "WINDOWED",
+          "internalType": "WINDOWED"
+        },
+        {
+          "id": "Problems",
+          "order": 1,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "type": "SLIDING",
+          "internalType": "SLIDING"
+        },
+        {
+          "id": "Problems View",
+          "order": 2,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "type": "SLIDING",
+          "internalType": "SLIDING"
+        },
+        {
+          "id": "Terminal",
+          "order": 3,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "type": "SLIDING",
+          "internalType": "SLIDING"
+        },
+        {
+          "id": "Services",
+          "order": 4,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "type": "SLIDING",
+          "internalType": "SLIDING"
+        },
+        {
+          "id": "Build",
+          "order": 5,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "type": "SLIDING",
+          "internalType": "SLIDING"
+        },
+        {
+          "id": "Run",
+          "order": 6,
+          "anchor": "BOTTOM",
+          "isAutoHide": true,
+          "type": "SLIDING",
+          "internalType": "SLIDING"
+        },
+        {
+          "id": "Notifications",
+          "order": 0,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "AIAssistant",
+          "order": 1,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Database",
+          "order": 2,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Gradle",
+          "order": 3,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Maven",
+          "order": 4,
+          "anchor": "RIGHT"
+        },
+        {
+          "id": "Lingma",
+          "order": 5,
+          "anchor": "RIGHT"
+        }
+      ],
+      "unifiedWeights": {
+        "top": 0.3,
+        "left": 0.15,
+        "bottom": 0.3,
+        "right": 0.25
+      }
+    }
+  }
+}]]></component>
+</application>
