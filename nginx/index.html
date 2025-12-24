@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nginx - sm5152.github.io</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        header {
+            background-color: #24292e;
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #0366d6;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        
+        .back-link:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        
+        .directory-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .directory-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .directory-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .directory-item h2 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+            color: #0366d6;
+        }
+        
+        .file-list {
+            list-style: none;
+        }
+        
+        .file-list li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .file-list a {
+            color: #0366d6;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .file-list a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        
+        .file-list .folder {
+            font-weight: bold;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem;
+            margin-top: 4rem;
+            color: #666;
+            border-top: 1px solid #eaecef;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nginx 配置</h1>
+        <p>Nginx 服务器的配置文件</p>
+    </header>
+    
+    <div class="container">
+        <a href="../" class="back-link">🔙 返回主页</a>
+        
+        <div class="directory-list">
+            <!-- Nginx配置文件 -->
+            <div class="directory-item">
+                <h2>📄 macOS 配置文件</h2>
+                <ul class="file-list">
+                    <li><a href="macos-base.conf">macOS 基础配置</a></li>
+                </ul>
+            </div>
+            
+            <div class="directory-item">
+                <h2>📄 Unix 配置文件</h2>
+                <ul class="file-list">
+                    <li><a href="unix-base.conf">Unix 基础配置</a></li>
+                    <li><a href="unix-example.conf">Unix 示例配置</a></li>
+                </ul>
+            </div>
+            
+            <div class="directory-item">
+                <h2>📄 Windows 配置文件</h2>
+                <ul class="file-list">
+                    <li><a href="windows-base.conf">Windows 基础配置</a></li>
+                    <li><a href="windows-example.conf">Windows 示例配置</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 sm5152.github.io</p>
+    </footer>
+</body>
+</html>
